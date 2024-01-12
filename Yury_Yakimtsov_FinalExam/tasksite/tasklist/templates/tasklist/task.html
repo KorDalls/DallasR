@@ -1,0 +1,7 @@
+{%  extends 'tasklist/main.html' %}
+{% block content %}
+
+<h1>Задача: {{task}}</h1>
+<h1>{{description}}</h1>
+<a href="{% url 'tasks' %}">Назад</a>
+{% endblock content %}
